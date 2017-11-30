@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'http://lotus0099.github.io/min_photos/' + data.link[i];
-          var src = 'http://lotus0099.github.io/photos/' + data.link[i];
+          var minSrc = 'https://raw.githubusercontent.com/lotus0099/backup-blog/master/min_photos/' + data.link[i];
+          var src = 'https://raw.githubusercontent.com/lotus0099/backup-blog/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '.jpg';
